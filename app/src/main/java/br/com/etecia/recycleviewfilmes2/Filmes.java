@@ -1,3 +1,5 @@
+package br.com.etecia.recycleviewfilmes2;
+
 public class Filmes {
     private String titulo;
     private String descricao;
