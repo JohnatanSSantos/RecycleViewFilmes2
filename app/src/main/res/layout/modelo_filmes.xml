@@ -5,7 +5,8 @@
     android:layout_width="190dp"
     android:layout_height="260dp"
     android:clickable="true"
-    app:cardCornerRadius="15dp">
+    app:cardCornerRadius="15dp"
+    android:foreground="?android:attr/selectableItemBackground">
 
     <LinearLayout
         android:layout_width="match_parent"

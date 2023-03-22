@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 new Filmes("Coringa",
                         "'Coringa' é uma história independente e original. Arthur Fleck (Joaquin Phoenix), um homem ignorado pela sociedade, não é apenas um caso de estudo comportamental, mas uma lição de vida.",
                         "Drama, Suspense",
-                        R.drawable.area51));
+                        R.drawable.area));
         listaFilmes.add(
                 new Filmes("Coringa",
                         "'Coringa' é uma história independente e original. Arthur Fleck (Joaquin Phoenix), um homem ignorado pela sociedade, não é apenas um caso de estudo comportamental, mas uma lição de vida.",
@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         idRecyclerView.setLayoutManager(new
                 GridLayoutManager(
                 getApplicationContext(), 2));
+
         //Fixador de tamanho da lista - deixar a lista mais rápida
         idRecyclerView.setHasFixedSize(true);
 
